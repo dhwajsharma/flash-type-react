@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer/Footer";
 import Landing from "./components/Landing/Landing";
 import Nav from "./components/Nav/Nav";
 
@@ -8,7 +9,7 @@ function App() {
       <Nav />
       <Landing />
       {/* Challenge section */}
-      {/* Footer */}
+      <Footer />
     </div>
   );
 }
