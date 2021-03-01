@@ -8,25 +8,10 @@
 }
 
 .footer-link {
-  white-space: nowrap;
-  overflow: hidden;
-
-  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  /* color: #34353b; */
   color: #e7e6e7;
-}
-
-/* Animation */
-.footer-link {
-  animation: animated-text 2s steps(30, end) 1s 1 normal both;
-}
-
-/* text animation */
-
-@keyframes animated-text {
-  from {
-    width: 0;
-  }
-  to {
-    width: 472px;
-  }
+  margin: 10px;
+  text-align: center;
 }

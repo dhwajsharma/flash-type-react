@@ -2,10 +2,15 @@ import React from "react";
 import "./Footer.css";
 const Footer = () => {
   return (
-    <div>
-      <div className="footer-container">
-        <p className="footer-link">Made by Dhwaj Sharma</p>
-      </div>
+    <div className="footer-container">
+      <a
+        target="_blank"
+        className="footer-link"
+        href="https://github.com/dhwajsharma"
+        rel="noreferrer"
+      >
+        Made by Dhwaj Sharma
+      </a>
     </div>
   );
 };
