@@ -33,7 +33,6 @@ const TryAgain = ({ words, characters, wpm }) => {
           }}
           variant="contained"
           color="primary"
-          href="#contained-buttons"
           className="end-buttons"
         >
           Tweet
