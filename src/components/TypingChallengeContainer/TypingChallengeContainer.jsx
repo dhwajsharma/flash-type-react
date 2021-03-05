@@ -14,7 +14,7 @@ const TypingChallengeContainer = ({ words, characters, wpm }) => {
 
       {/* The real challenge */}
       <div className="typewriter-container">
-        <TypingChallenge />
+        <TypingChallenge selectedParagraph="Hi ssssharminator" />
       </div>
     </div>
   );
