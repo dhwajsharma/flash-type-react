@@ -1,5 +1,6 @@
 import "./App.css";
-import { React, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
+import React from "react";
 import ChallengeSection from "./components/ChallengeSection/ChallengeSection";
 import Footer from "./components/Footer/Footer";
 import Landing from "./components/Landing/Landing";
