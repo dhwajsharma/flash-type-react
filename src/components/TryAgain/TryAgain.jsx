@@ -2,7 +2,7 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 import "./TryAgain.css";
 
-const TryAgain = ({ words, characters, wpm }) => {
+const TryAgain = ({ words, characters, wpm, startAgain }) => {
   return (
     <div className="try-again">
       <h1>Test Results</h1>
@@ -20,7 +20,12 @@ const TryAgain = ({ words, characters, wpm }) => {
       </div>
 
       <div>
-        <Button variant="contained" color="secondary" className="end-buttons">
+        <Button
+          onClick={() => startAgain()}
+          variant="contained"
+          color="secondary"
+          className="end-buttons"
+        >
           Retry
         </Button>
         <Button
